@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-white text-slate-900; }
+.container-app { @apply max-w-6xl mx-auto px-4; }
+.btn-primary { @apply px-6 py-3 rounded-2xl bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition shadow-soft; }
